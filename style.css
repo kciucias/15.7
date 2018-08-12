@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|VT323');
+
+
+.container {
+	height: 100vh;
+}
+
+body {
+	background-color: #000;
+	font-family: 'VT323', monospace;
+	font-size: 80px;
+	text-align: center;
+}
+.stopwatch {
+	color: #4286f4;
+	padding-top: 30px;
+}
+
+.button {
+	padding: 20px;
+	border: none;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #f2e610;
+	text-shadow: 1px 1px 3px #fff;
+	background-color: #000;
+	text-decoration: none;
+}
+
+
+.results {
+	height:50vh;
+	overflow-y: auto;
+	margin: 0;
+}
